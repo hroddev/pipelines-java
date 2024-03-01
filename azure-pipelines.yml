@@ -17,6 +17,8 @@ steps:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
+    jdkDirectory: '~/.sdkman/candidates/java/current/bin/java'
+    mavenDirectory: '~/.sdkman/candidates/maven/current/bin/mvn'
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
